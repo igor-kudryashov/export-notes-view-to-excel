@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/export.notes.view.to.excel.feature_1.0.0.201506231109.jar" id="export.notes.view.to.excel.feature" version="1.0.0.201506231109">
+      <category name="export.notes.view.to.excel.plugin"/>
+   </feature>
+   <feature url="features/org.apache.poi.feature_3.9.0.jar" id="org.apache.poi.feature" version="3.9.0">
+      <category name="org.apache.poi"/>
+   </feature>
+   <archive path="plugins/org.apache.poi_3.9.0.v201405241750.jar" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/plugins/org.apache.poi_3.9.0.v201405241750.jar"/>
+   <archive path="plugins/org.apache.poi.ooxml_3.9.0.v201405241905.jar" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/plugins/org.apache.poi.ooxml_3.9.0.v201405241905.jar"/>
+   <archive path="plugins/org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/plugins/org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar"/>
+   <archive path="plugins/org.apache.xmlbeans_2.3.0.v201405241900.jar" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/plugins/org.apache.xmlbeans_2.3.0.v201405241900.jar"/>
+   <archive path="plugins/org.dom4j_1.6.1.v201312101416.jar" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/plugins/org.dom4j_1.6.1.v201312101416.jar"/>
+   <category-def name="export.notes.view.to.excel.plugin" label="Export IBM Notes View to Microsoft Excel Plugin"/>
+   <category-def name="org.apache.poi" label="Apache POI">
+      <description>
+         The Apache POI Project&apos;s mission is to create and maintain Java APIs for manipulating various file formats based upon the Office Open XML standards (OOXML) and Microsoft&apos;s OLE 2 Compound Document format (OLE2). In short, you can read and write MS Excel files using Java. In addition, you can read and write MS Word and MS PowerPoint files using Java. Apache POI is your Java Excel solution (for Excel 97-2008).
+      </description>
+   </category-def>
+</site>

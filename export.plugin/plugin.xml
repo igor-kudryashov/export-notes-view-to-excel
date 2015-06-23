@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="%actionSet.label"
+            visible="true"
+            id="export.notes.view.to.excel.actionSet">
+         <action
+               class="export.notes.view.to.excel.ExportAction"
+               icon="icons/excel.gif"
+               id="ExportAction"
+               label="%action.label"
+               menubarPath="file/additions"    
+               toolbarPath="additions"
+               tooltip="%action.tooltip">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
